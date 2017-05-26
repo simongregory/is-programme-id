@@ -1,0 +1,15 @@
+{
+  "name": "is-programme-id",
+  "version": "1.0.0",
+  "description": "Validates BBC Programme identifiers",
+  "main": "index.js",
+  "repository": "https://github.com/simongregory/is-programme-id",
+  "author": "Simon Gregory",
+  "license": "ISC",
+  "files" : [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  }
+}
