@@ -8,6 +8,8 @@ try {
   assert(!isProgrammeID(), 'Undefined should fail');
   assert(isProgrammeID("b00c3wwg"), 'Normal ID should pass');
   console.log('Tests passed');
+  process.exit(0);
 } catch (e) {
   console.log('Tests failed');
+  process.exit(1);
 }
